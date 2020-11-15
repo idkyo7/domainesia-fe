@@ -1,35 +1,19 @@
-.promoteContainer {
-    margin-top: 100px;
+
+.solutionContainer {
+    background-color: #f5f5f5;
+    padding: 100px 0;
+    margin-top: 70px;
 }
-.promoteTitle {
+.solutionTitle {
     line-height: 1.21;
-    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2.441em;
+    font-family: "Roboto", sans-serif;
 }
-.promoteSubtitle {
+.solutionSubtitle {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.21;
+    text-align: center;
+    margin-top: 20px;
     font-size: 18px;
-    line-height: 28px;
-}
-.pointContainer {
-    margin-bottom: 10px;
-}
-.promotePoint {
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 15px;
-}
-.buttonContainer {
-    margin-top: 30px;
-}
-.promoteButton {
-    border: 1px solid #0073ec;
-    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .15);
-    background: #0073ec;
-    color: #ffffff;
-    padding: 10px 30px;
-    font-size: 14px;
-    transition: .5s ease;
-}
-.promoteButton:hover {
-    background-color: #ffffff;
-    color: #0073ec;
 }
