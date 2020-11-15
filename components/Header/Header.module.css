@@ -1,0 +1,21 @@
+.navbar {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+.headerContainer {
+    background-color: #0067e2 !important;
+    position: fixed;
+    box-shadow: 0 7px 17px rgba(0, 0, 0, 0.04);
+    top: 0px;
+    z-index: 9999;
+    width: 100%;
+}
+.headerContent {
+    color: #ffffff;
+    padding: 10px 0;
+}
+.navLink {
+    color: #ffffff;
+    font-size: 14px;
+    opacity: .7;
+}

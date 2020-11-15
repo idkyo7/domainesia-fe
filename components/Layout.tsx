@@ -1,6 +1,9 @@
 import React, { ReactNode } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
+import Header from '@/components/Header'
+import Carousel from '@/components/Carousel'
+import Features from '@/components/Features'
 
 type Props = {
   children?: ReactNode
@@ -13,8 +16,12 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       <title>{title}</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <link rel="stylesheet" href="/fonts/fonts.css" />
     </Head>
-    <header>
+    <Header />
+    <Carousel />
+    <Features />
+    {/* <header>
       <nav>
         <Link href="/">
           <a>Home</a>
@@ -29,7 +36,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
         </Link>{' '}
         | <a href="/api/users">Users API</a>
       </nav>
-    </header>
+    </header> */}
     {children}
     <footer>
       <hr />

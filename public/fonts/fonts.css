@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Lato";
+    src: url("Lato-Regular.ttf");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Space Mono";
+    src: url("SpaceMono-Regular.ttf");
+    font-style: medium;
+    font-weight: 500;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Roboto";
+    src: url("Roboto-Regular.ttf");
+    font-style: medium;
+    font-weight: 500;
+    font-display: swap;
+  }

@@ -1,0 +1,55 @@
+.carouselContainer {
+    font-family: Roboto, sans-serif;
+    margin-top: 56px;
+    background-color: rgb(15 93 208 / 88%);
+    padding: 15px 0;
+    color: #ffffff;
+}
+.contentSearch {
+    display: grid;
+    align-items: center;
+}
+.animationImage {
+    position: relative;
+}
+.animationImg {
+    position: absolute;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-animation: bounce 1s ease-in-out 0s infinite alternate;
+    animation: bounce 1s ease-in-out 0s infinite alternate;
+}
+.animationImgOne {
+    left: 15%;
+    top: 30%;
+}
+.animationImgTwo {
+    left: inherit;
+    right: 45%;
+    top: 0;
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+}
+.animationImgThree {
+    top: 30%;
+    left: 75%;
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+}
+.animationImgFour {
+    left: inherit;
+    right: 45%;
+    top: 60%;
+    -webkit-animation-delay: .8s;
+    animation-delay: .8s;
+}
+.title {
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
