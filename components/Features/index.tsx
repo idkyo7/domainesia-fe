@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react'
 import styles from './Features.module.css'
+import MiniFeatures from './MiniFeatures'
 
 type Props = {
   children?: ReactNode
@@ -11,16 +12,28 @@ const Features = ({}: Props) => (
         <div className="container">
             <div className="row">
                 <div className="col-md-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quia officiis nostrum libero quam corporis dolorem laboriosam maxime velit, deserunt repellat, hic quasi similique culpa dicta veniam tenetur sapiente est!
+                    <MiniFeatures 
+                        title="Buy A Domain" 
+                        subtitle="Whether you are looking for a personal website hosting plan" 
+                    />
                 </div>
                 <div className="col-md-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quia officiis nostrum libero quam corporis dolorem laboriosam maxime velit, deserunt repellat, hic quasi similique culpa dicta veniam tenetur sapiente est!
+                    <MiniFeatures 
+                        title="Order Hosting" 
+                        subtitle="Whether you are looking for a personal website hosting plan" 
+                    />
                 </div>
                 <div className="col-md-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quia officiis nostrum libero quam corporis dolorem laboriosam maxime velit, deserunt repellat, hic quasi similique culpa dicta veniam tenetur sapiente est!
+                    <MiniFeatures 
+                        title="Make Payment" 
+                        subtitle="Whether you are looking for a personal website hosting plan" 
+                    />
                 </div>
                 <div className="col-md-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quia officiis nostrum libero quam corporis dolorem laboriosam maxime velit, deserunt repellat, hic quasi similique culpa dicta veniam tenetur sapiente est!
+                    <MiniFeatures 
+                        title="Get Support" 
+                        subtitle="Whether you are looking for a personal website hosting plan" 
+                    />
                 </div>
             </div>
         </div>

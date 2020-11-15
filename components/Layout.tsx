@@ -4,6 +4,8 @@ import Head from 'next/head'
 import Header from '@/components/Header'
 import Carousel from '@/components/Carousel'
 import Features from '@/components/Features'
+import Promote from './Promote'
+import Solution from './Solution'
 
 type Props = {
   children?: ReactNode
@@ -21,6 +23,8 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
     <Header />
     <Carousel />
     <Features />
+    <Promote />
+    <Solution />
     {/* <header>
       <nav>
         <Link href="/">
