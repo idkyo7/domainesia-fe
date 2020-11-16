@@ -7,7 +7,7 @@ type Props = {
 }
 
 const Header = ({}: Props) => (
-    <section className={styles.carouselContainer}>
+    <section className={styles.carouselContainer} id="home">
         <div className="container">
             <div className="row">
                 <div className={[styles.contentSearch, "col-md-6"].join(' ')}>

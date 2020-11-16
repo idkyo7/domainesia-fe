@@ -9,7 +9,7 @@ type Props = {
 
 const Guarantee = ({}: Props) => {
     return (
-        <section className={styles.guaranteeContainer}>
+        <section className={styles.guaranteeContainer} id="contactus">
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
@@ -18,7 +18,7 @@ const Guarantee = ({}: Props) => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum accusamus ex numquam consectetur atque, deleniti, explicabo animi unde in saepe hic quia vel! Optio impedit natus officiis consectetur, eius ex.
                         </p>
                         <div className={styles.buttonContainer}>
-                            <button className={[styles.btnPrimary, "btn-primary"].join(' ')}>Get Started</button>
+                            <button className={[styles.btnPrimary, "btn-primary"].join(' ')}>Contact Us</button>
                         </div>
                     </div>
                 </div>

@@ -43,7 +43,7 @@ const Hosting = ({}: Props) => {
     console.log(apiData)
 
     return (
-        <section className={styles.hostingContainer}>
+        <section className={styles.hostingContainer} id="price">
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">

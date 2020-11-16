@@ -8,7 +8,7 @@ type Props = {
 }
 
 const Features = ({}: Props) => (
-    <section className={styles.featuresContainer}>
+    <section className={styles.featuresContainer} id="features">
         <div className="container">
             <div className="row">
                 <div className="col-md-3">

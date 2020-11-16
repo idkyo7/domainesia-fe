@@ -9,7 +9,7 @@ type Props = {
 
 const Support = ({}: Props) => {
     return (
-        <section className={styles.supportContainer}>
+        <section className={styles.supportContainer} id="support">
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
