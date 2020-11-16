@@ -1,6 +1,11 @@
-# TypeScript Next.js example
+# TypeScript Next.js - Domainesia FE Test Development Landing Page
 
 This is a really simple project that shows the usage of Next.js with TypeScript.
+
+Step by step to run this project :
+1. Clone this repo
+2. Use [`yarn install`]
+3. To run this project, execute [`yarn dev`]
 
 ## Deploy your own
 
