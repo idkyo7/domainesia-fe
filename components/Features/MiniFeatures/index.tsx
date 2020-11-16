@@ -11,7 +11,6 @@ type Props = {
 
 const MiniFeatures = ({title, subtitle}: Props) => (
     <div className={[styles.miniContainer, "rounded"].join(' ')}>
-         <FontAwesomeIcon icon={['fab', 'apple']} />
         <div className={styles.miniIcon}>
             <div className="text-center">
                 <span className={styles.miniSpan}>

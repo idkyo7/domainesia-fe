@@ -40,8 +40,6 @@ const Hosting = ({}: Props) => {
         })();
     }, []);
 
-    console.log(apiData)
-
     return (
         <section className={styles.hostingContainer} id="price">
             <div className="container">
@@ -54,7 +52,7 @@ const Hosting = ({}: Props) => {
                 <div className="row mt-3">
                     {
                         apiData && apiData.map((data) => (
-                            <div className="col-md-4">
+                            <div className="col-md-4" key={data.id}>
                                 <MiniHosting 
                                     backup={data.backup}
                                     bandwidth={data.bandwidth}
