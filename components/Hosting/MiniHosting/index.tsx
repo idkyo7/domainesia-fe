@@ -3,39 +3,61 @@ import styles from './MiniHosting.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
+// hosting props validation from its parent component
 type Props = {
-    
+    backup: string;
+    domain: string;
+    id: string;
+    packageName: string;
+    price: string;
+    ssl: string;
+    storage: string;
+    support: string;
+    uptime: number;
+    webQuantity: number;
+    bandwidth: string;
 }
 
-const MiniSolution = ({}: Props) => (
+const MiniSolution = ({
+    backup,
+    domain,
+    packageName,
+    price,
+    ssl,
+    storage,
+    support,
+    uptime,
+    webQuantity,
+    bandwidth
+}: Props) => (
     <div className={[styles.miniContainer, "rounded"].join(' ')}>
-        <h5>Economy</h5>
-        <h3 className={styles.subtitle}><span className={styles.mainSubtitle}>$6.69</span> /month</h3>
+        <h5>{packageName}</h5>
+<h3 className={styles.subtitle}><span className={styles.mainSubtitle}>${price}</span> /month</h3>
         <hr/>
         <div className={styles.miniContent}>
             <p>
-                <b>10</b> Websites
+                <b>{webQuantity}</b> Websites
             </p>
             <p>
-                <b>Unlimited</b> RAID Storage
+                <b>{storage}</b> RAID Storage
             </p>
             <p>
-                <b>Unlimited</b> Bandwidth
+                <b>{bandwidth}</b> Bandwidth
             </p>
             <p>
-                <b>Free</b> SSL Certificate
+                <b>{ssl}</b> SSL Certificate
             </p>
             <p>
-                <b>Free Domain</b> Included
+                <b>{domain}</b> Included
             </p>
             <p>
-                <b>99.99%</b> Uptime
+                <b>{uptime}%</b> Uptime
             </p>
             <p>
-                <b>24/7 </b> Phone Support
+                <b>{support}</b> Phone Support
             </p>
             <p>
-                Free Site Backup & Restore (Condition Apply)
+                {backup}
             </p>
         </div>
         <div className={styles.buttonContainer}>
