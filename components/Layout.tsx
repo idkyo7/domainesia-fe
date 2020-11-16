@@ -2,11 +2,7 @@ import React, { ReactNode } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import Header from '@/components/Header'
-import Carousel from '@/components/Carousel'
-import Features from '@/components/Features'
-import Promote from './Promote'
-import Solution from './Solution'
-import Hosting from './Hosting'
+import Footer from './Footer'
 
 type Props = {
   children?: ReactNode
@@ -22,16 +18,8 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       <link rel="stylesheet" href="/fonts/fonts.css" />
     </Head>
     <Header />
-    <Carousel />
-    <Features />
-    <Promote />
-    <Solution />
-    <Hosting />
     {children}
-    <footer>
-      <hr />
-      <span>I'm here to stay (Footer)</span>
-    </footer>
+    <Footer />
   </div>
 )
 

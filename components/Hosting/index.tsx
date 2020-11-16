@@ -43,12 +43,12 @@ const Hosting = ({}: Props) => {
     console.log(apiData)
 
     return (
-        <section className={styles.solutionContainer}>
+        <section className={styles.hostingContainer}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h2 className={styles.solutionTitle}>Managed Our Hosting Price</h2>
-                        <p className={styles.solutionSubtitle}>Distinctively recaptiualize principle-centered core competencies through client-centered core competencies. Enthusiastically provide access.</p>
+                        <h2 className={styles.hostingTitle}>Managed Our Hosting Price</h2>
+                        <p className={styles.hostingSubtitle}>Distinctively recaptiualize principle-centered core competencies through client-centered core competencies. Enthusiastically provide access.</p>
                     </div>
                 </div>
                 <div className="row mt-3">
