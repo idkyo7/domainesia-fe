@@ -6,6 +6,7 @@ import Carousel from '@/components/Carousel'
 import Features from '@/components/Features'
 import Promote from './Promote'
 import Solution from './Solution'
+import Hosting from './Hosting'
 
 type Props = {
   children?: ReactNode
@@ -25,22 +26,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
     <Features />
     <Promote />
     <Solution />
-    {/* <header>
-      <nav>
-        <Link href="/">
-          <a>Home</a>
-        </Link>{' '}
-        |{' '}
-        <Link href="/about">
-          <a>About</a>
-        </Link>{' '}
-        |{' '}
-        <Link href="/users">
-          <a>Users List</a>
-        </Link>{' '}
-        | <a href="/api/users">Users API</a>
-      </nav>
-    </header> */}
+    <Hosting />
     {children}
     <footer>
       <hr />
